@@ -8,9 +8,6 @@
 int main(void)
 {
 
-	int a;
-
-	for (a = 0; a < 10; a++)
-		printf("%d\n", a);
+	printf("0123456789\n");
 	return (0);
 }
