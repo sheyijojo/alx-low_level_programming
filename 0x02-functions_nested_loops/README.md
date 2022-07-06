@@ -1,28 +1,4 @@
-esources
-
-Read or watch:
-
-
-
-Nested while loops
-
-C - Functions
-
-Learning to Program in C (Part 06) (stop at 14:00)
-
-What is the purpose of a function prototype?
-
-C - Header Files (stop before the “Once-Only Headers” paragraph)
-
-Learning Objectives
-
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-
-
-General
-
-What are nested loops and how to use them
+t are nested loops and how to use them
 
 What is a function and how do you use functions
 
@@ -65,3 +41,17 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 
 Don’t forget to push your header file
+
+Copyright - Plagiarism
+
+You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+
+You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+
+You are not allowed to publish any content of this project.
+
+Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+More Info
+
+You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet:
