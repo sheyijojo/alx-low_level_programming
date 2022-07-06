@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main- This is the entry block to the code
- * Description: func to print abc
+ * print_alphabet- func used to print alphabets 10times
+ * description: function prints the aplhabet in lowercase
  * Return: returns 0
  */
 void print_alphabet(void)
