@@ -6,7 +6,6 @@
  * Return: returns nothing
  */
 void print_to_98(int n)
-
 {
 	if (n <= 98)
 	{
@@ -16,8 +15,9 @@ void print_to_98(int n)
 				printf("%d\n", n);
 			else
 				printf("%d, ", n);
-			n = n + a;
-
+			n = n + 1;
+				
+		}
 	} else if (n > 98)
 	{
 		while (n >= 98)
