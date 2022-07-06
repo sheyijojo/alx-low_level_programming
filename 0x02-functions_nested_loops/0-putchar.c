@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main- This is the entry block to the code
  * Description: prints _putchar followed by a new line
@@ -21,5 +22,5 @@ int main(void)
 		}
 
 		_putchar('\n');
-	return (0);
+		return (0);
 }
