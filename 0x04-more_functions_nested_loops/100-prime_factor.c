@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - finds and prints the largest prime factor of the number 612852475143 followed by a new line
+ * main - finds and prints the largest prime factr of d num n fflw by a nwln
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	long int n ;
+	long int n;
 	long int max;
 	long int i;
 
@@ -31,7 +31,7 @@ int main(void)
 	if (n > 2)
 		max = n;
 
-	printf("%ld\n" , max);
+	printf("%ld\n", max);
 
 	return (0);
 }
