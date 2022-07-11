@@ -6,7 +6,7 @@
  * @n: input int
  * Return: void
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int a = 0;
 
