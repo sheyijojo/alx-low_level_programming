@@ -5,7 +5,6 @@ include "main.h"
  * @src: source.
  * Return: the pointer to dest.
  */
-
 char *_strcat(char *dest, char *src)
 {
 
@@ -21,7 +20,6 @@ char *_strcat(char *dest, char *src)
 	while (s2 >= 0)
 	{
 		*(dest + s1) = *(src + s2);
-
 		if (*(src + s2) == '\0')
 
 			break;
