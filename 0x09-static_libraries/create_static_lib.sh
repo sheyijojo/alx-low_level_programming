@@ -1,5 +1,4 @@
 #!/bin/bash
-gcc -c *.c
-ar rcs liball.a *.o
-/* could decide to add - Wall -Wesxtra -Werroe -pedantic as errors
-*/
+gcc -Wall -Wextra -Werror -pedantic -c *.c
+ar rc liball.a *.o
+
