@@ -1,0 +1,41 @@
+nclude <stdio.h>                                                                                                                                  
+
+#include <stdlib.h>                                                                                                                                 
+
+/*main: entry point of my program                                                                                                                   
+
+ *int argc - reps the no of things entered on terminal                                                                                              
+
+ *when running the executable file                                                                                                                  
+
+ *char* argv[]- array tha holds d str values of what was entered on terminal                                                                        
+
+ */                                                                                                                                                 
+
+int main(int argc, char* argv[])                                                                                                                    
+
+{                                                                                                                                                   
+
+        int i;                                                                                                                                      
+
+                                                                                                                                                    
+
+        printf("argc = %d\n", argc);//%d to indicate int is printed out//                                                                           
+
+        printf("Let's see what we have inside argv[]\n");                                                                                           
+
+                                                                                                                                                    
+
+        for(i = 0; i < argc; i++)                                                                                                                   
+
+        {                                                                                                                                           
+
+                printf("argv[%d] = %s\n", i, argv[i]);//%d access the index while i increases, %s prints the str for every item on the terminal//   
+
+        }                                                                                                                                           
+
+                                                                                                                                                    
+
+        return 0;                                                                                                                                   
+
+}                     
