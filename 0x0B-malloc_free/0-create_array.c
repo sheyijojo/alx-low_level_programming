@@ -11,7 +11,6 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-
 	char *iArray;
 
 
@@ -41,5 +40,4 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (iArray);
-
 }
